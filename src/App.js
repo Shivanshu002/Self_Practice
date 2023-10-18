@@ -1,4 +1,5 @@
 import Navbar from "./component/DropdownNavbar";
+import SearchBar from "./component/SearchBar";
 
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
       {/* <Carts /> */}
       {/* <CardSlider /> */}
       {/* <DropdownNavbar /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+
+      <SearchBar />
     </>
   );
 }
