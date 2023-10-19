@@ -1,3 +1,4 @@
+import AutoSlide from "./component/AutoSlide";
 import Navbar from "./component/DropdownNavbar";
 import SearchBar from "./component/SearchBar";
 
@@ -9,8 +10,9 @@ function App() {
       {/* <CardSlider /> */}
       {/* <DropdownNavbar /> */}
       {/* <Navbar /> */}
-
-      <SearchBar />
+      {/* <SearchBar /> */}
+      
+      <AutoSlide />
     </>
   );
 }
