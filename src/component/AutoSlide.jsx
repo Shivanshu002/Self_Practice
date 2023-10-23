@@ -22,10 +22,7 @@ const CardCarousel = ({ cards, interval = 3000 }) => {
         style={{ transform: `translateX(-${currentCardIndex * 20}%)` }}
       >
         {cards.map((card, index) => (
-          <div
-            key={index}
-            className="w-1/5 p-4"
-          >
+          <div key={index} className="w-1/5 p-4">
             {card}
           </div>
         ))}
@@ -41,14 +38,7 @@ const AutoSlide = () => {
     <div className="bg-red-200 h-32 w-32">Card 3</div>,
     <div className="bg-yellow-200 h-32 w-32">Card 4</div>,
     <div className="bg-pink-200 h-32 w-32">Card 5</div>,
-    <div className="bg-pink-200 h-32 w-32">Card 5</div>,
-    <div className="bg-pink-200 h-32 w-32">Card 5</div>,
-    <div className="bg-pink-200 h-32 w-32">Card 5</div>,
-    <div className="bg-pink-200 h-32 w-32">Card 5</div>,
-    <div className="bg-pink-200 h-32 w-32">Card 5</div>,
-    <div className="bg-pink-200 h-32 w-32">Card 5</div>,
-    <div className="bg-pink-200 h-32 w-32">Card 5</div>,
-    <div className="bg-pink-200 h-32 w-32">Card 5</div>,
+    <div className="bg-purple-200 h-32 w-32">Card 6</div>,
   ];
 
   return (
