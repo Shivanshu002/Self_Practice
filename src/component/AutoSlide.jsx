@@ -14,7 +14,7 @@ const CardCarousel = ({ cards, interval = 3000 }) => {
       clearInterval(timer);
     };
   }, [currentCardIndex, cards, interval]);
-
+ 
   return (
     <div className="w-full h-40 relative overflow-hidden">
       <div
